@@ -1,0 +1,35 @@
+.course-info-containter {
+	width: 1300px;
+	margin: 0 auto;
+	padding: 30px;
+	border: 2px solid #6666FF;
+}
+.title {
+	text-align: center;
+	font-weight: 500;
+	font-size: 40px;
+}
+
+.flex-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.text-side {
+	width: 65%;
+}
+.other-info-side {
+	width: 25%;
+}
+.bold-subtitles {
+	font-weight: 600;
+}
+.link {
+	text-decoration: none;
+	font-size: 19px;
+	font-weight: 500;
+	color: black;
+}
+p {
+	font-size: 22px;
+	font-weight: 400;
+}

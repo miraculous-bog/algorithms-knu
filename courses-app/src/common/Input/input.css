@@ -1,0 +1,14 @@
+label {
+	display: block;
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 10px;
+}
+input {
+	padding: 8px;
+	margin-top: 10px;
+	font-size: 17px;
+	font-weight: 400;
+	border: 1px solid palevioletred;
+	outline: 1px solid palevioletred;
+}

@@ -1,0 +1,11 @@
+.button-img-container {
+	background-color: white;
+	border: 3px solid violet;
+	padding: 5px 5px;
+	max-height: 40px;
+	cursor: pointer;
+	max-height: 50px;
+}
+.button-img {
+	max-width: 20px;
+}

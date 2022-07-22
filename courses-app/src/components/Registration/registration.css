@@ -1,0 +1,41 @@
+.wrapper-form {
+	width: 1300px;
+	margin: 30px auto;
+	padding: 30px;
+	border: 2px solid #6666FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-container {
+	margin-top: 250px;
+	margin-bottom: 250px;
+	max-width: 400px;
+}
+
+.form label {
+	font-weight: 500;
+	margin-top: 40px;
+}
+.form input {
+	width: 100%;
+	border: 1px solid #fbbc8e;
+}
+.form .button {
+	display: block;
+	margin-left: 95px;
+	margin-top: 40px;
+	padding: 8px 48px;
+	border-color: #cba0eb;
+}
+.tip {
+	font-size: 16px;
+	font-weight: 500;
+}
+a {
+	text-decoration: none;
+}
+.link-helper {
+	color: #5fa7fb;
+}
