@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Global Ukraine Card</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id="openModal" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="img/success-icon.png" alt="success">
+                    <p>Ваші дані надіслані успішно!</p>
+                    <p>Очікуйте відповіді...</p>
+                    <a class="main-button modal-btn">Завершити</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="header">
+        <img class="logo" src="img/logo.png" alt="logo">
+        <select class="change-lang">
+            <option value="ua" selected>UA</option>
+            <option value="en">EN</option>
+        </select>
+    </header>
+    <div class="wrapper">
+        <section class="possibility">
+            <div class="possibility__text">
+                <h2 class="possibility__text-title element-animation lng-possibility-title">
+                    Українці в Європі
+                </h2>
+                <p class="possibility__text-description element-animation lng-possibility-text">
+                    Ти маєш надзвичайну можливість відкриття євро рахунку в єврозоні - завдяки необанку Global Ukraine !
+                </p>
+                <a class="main-button possibility__text-btn enrrol-form lng-main-btn-1">Оформити картку</a>
+            </div>
+            <div class="possibility__img">
+                <img class="possibility__img-card" src="img/card.png" alt="card">
+            </div>
+        </section>
+        <section class="preferences">
+            <h1 class="main-title element-animation lng-preferences-title">Чому ми?</h1>
+
+            <div class="preferences__items">
+                <div class="preferences__items-block">
+                    <div class="preferences__items-block-img">
+                        <img src="img/item-1.png" alt="item">
+                    </div>
+                    <p class="preferences__items-block-text lng-preferences-first-text">
+                        Відкрити рахунок в Євро на основі українських документів
+                    </p>
+                </div>
+                <div class="preferences__items-block">
+                    <div class="preferences__items-block-img">
+                        <img src="img/card.png" alt="item">
+                    </div>
+                    <p class="preferences__items-block-text lng-preferences-second-text">
+                        Замовити банківську карту з підтримкою українською мовою
+                    </p>
+                </div>
+                <div class="preferences__items-block">
+                    <div class="preferences__items-block-img">
+                        <img src="img/item-3.png" alt="item">
+                    </div>
+                    <p class="preferences__items-block-text lng-preferences-third-text">
+                        Забезпечити фінансову безпеку своїм рідним, які в Україні
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="chance">
+            <h1 class="main-title element-animation lng-chance-title">Ваш шанс!</h1>
+            <div class="chance__bg">>
+                <div class="offer element-animation">
+                    <h2 class="offer__title lng-chance-text">Хочете бути в першій тисячі українців, котрі матимуть
+                        банківську карту
+                        Global
+                        Ukraine?</h2>
+                    <a class="lng-main-btn-2 main-button offer__btn enrrol-form">Оформити картку</a>
+                </div>
+                <div class="investments">
+                    <h1 class="main-title element-animation main-title-exception lng-investments-title">Ми інвестуємо!
+                    </h1>
+                    <div class="investments__info element-animation">
+                        <h2 class="lng-investments-text">Global Ukraine працює під європейською ліцензією EMI для
+                            створення першого українського
+                            необанку в
+                            Європі, половина прибутку необанку буде спрямована на підтримку та захист українських громад
+                            в
+                            світі!</h2>
+                    </div>
+
+                    <div class="investments__visualization">
+                        <div class="investments__visualization-img communities">
+                            <img src="img/communities.png" alt="item">
+                        </div>
+                        <div class="investments__visualization-img company">
+                            <img src="img/company.png" alt="item">
+                        </div>
+                        <div class="investments__visualization-img idea">
+                            <img src="img/idea.png" alt="item">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="form-data">
+            <h1 class="main-title element-animation lng-form-title">Введіть дані!</h1>
+            <div class="flex-container">
+                <div class="form-data__img">
+                    <img src="img/img-form.png" alt="girl-with-card">
+                </div>
+                <form class="form">
+                    <div class="form-container">
+                        <div id="name">
+                            <input type="text" placeholder="Гліб Українець">
+                            <span class="error"></span>
+                        </div>
+                        <div id="email">
+                            <input type="email" placeholder="HlibUA@gmail.com">
+                            <span class="error"></span>
+                        </div>
+                        <div class="select">
+                            <div class="selectWrapper">
+                                <div class="selectCustom js-selectCustom" id="country">
+                                    <div class="selectCustom-trigger">Вибрати країну...</div>
+                                    <div class="selectCustom-options">
+                                    </div>
+                                    <span class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="checkbox">
+                            <label class="label">
+                                <input type="checkbox" class="checkbox">
+                                <span class="fake"></span>
+                                <span class="checkbox-text lng-checkbox-first">Індивідуальний (фізособа)</span>
+                            </label>
+                            <label class="label">
+                                <input type="checkbox" class="checkbox">
+                                <span class="fake"></span>
+                            </label>
+                            <span class="checkbox-text lng-checkbox-second">Корпоративний (ФОП)</span>
+                            <span class="error"></span>
+                        </div>
+                        <button class="main-button form__btn lng-main-btn-3">Оформити картку</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__links">
+                <ul class="social-media-links__list">
+                    <li class="social-media-links__item">
+                        <a href="https://www.instagram.com/globalukraine/?fbclid=IwAR27L29mzb6L9waqSc9TebAfcbttoH6CAVBHXNOML3eEXoX_q9BW6eXjNs4"
+                            target="_blank">
+                            <svg class="social-media-links__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-media-links__item">
+                        <a href="https://www.facebook.com/GlobalUkraineFoundation" target="_blank">
+                            <svg class="social-media-links__img" aria-label="Facebook" role="img" viewBox="0 0 512 512">
+                                <path
+                                    d="M355.6 330l11.4-74h-71v-48c0-20.2 9.9-40 41.7-40H370v-63s-29.3-5-57.3-5c-58.5 0-96.7 35.4-96.7 99.6V256h-65v74h65v182h80V330h59.6z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-media-links__item">
+                        <a href="https://twitter.com/GlobalUA?fbclid=IwAR0TxBJMLBrWPrCfZCfJ5r45WaQCuM9AUTK-Zi2PFsWSVutqNgUXdq2_gKY"
+                            target="_blank">
+                            <svg class="social-media-links__img" enable-background="new 0 0 211.405 175.0664"
+                                id="twiter" version="1.1" viewBox="0 0 211.405 175.0664" xml:space="preserve">
+                                <path
+                                    d="M209.647,20.4548c-1.416-0.9588-3.2908-0.91-4.658,0.1232c-1.7952,1.3612-4.7168,2.4412-7.8616,3.2732  c8.1896-9.1756,8.3656-15.3024,8.2776-16.7128c-0.092-1.4548-0.9688-2.746-2.2892-3.3672c-1.324-0.6248-2.8748-0.4724-4.0548,0.3828  c-9.2108,6.6956-18.3864,8.1096-23.8436,8.252C166.8426,4.3924,155.9634,0,144.3894,0c-24.7832,0-44.9456,20.4316-44.9456,45.5448  c0,2.158,0.1504,4.3164,0.4512,6.4512c-42.9512-0.4864-77.83-41.6408-78.1892-42.0704c-0.838-1.002-2.1132-1.5372-3.416-1.422  C16.987,8.6172,15.821,9.3572,15.1686,10.49c-12.3612,21.4436-4.09,40.2776,3.4708,51.0608c-1.338-0.7132-2.422-1.416-3.0684-1.8928  c-1.2012-0.8944-2.8048-1.0428-4.1544-0.3808c-1.3476,0.664-2.2088,2.0236-2.2344,3.5252  c-0.334,20.432,9.502,32.1368,18.748,38.6076c-1.2324-0.1172-2.4844,0.3416-3.3396,1.2716  c-0.9612,1.0448-1.2988,2.5196-0.8848,3.8768c6.3868,20.9084,22.072,28.0116,32.0528,30.422  c-20.5216,15.9744-50.7188,10.834-51.0528,10.7752c-1.8224-0.322-3.6252,0.6368-4.3672,2.3284  c-0.7424,1.6892-0.2344,3.6696,1.2344,4.7888c21.66,16.5312,47.5664,20.1936,66.2812,20.1936  c14.1544-0.002,24.1992-2.098,25.16-2.3068c94.7912-22.4628,97.4592-109.2912,97.2424-123.5216  c17.7948-16.5488,20.576-22.8516,21.0056-24.41C211.7154,23.1736,211.067,21.416,209.647,20.4548z M183.4946,44.5956  c-0.8904,0.8204-1.3612,2.002-1.2812,3.2108c0.252,3.842,5.0996,94.3868-90.9688,117.1524  c-0.4352,0.092-38.6228,8.0604-71.7284-8.34c13.9864-0.3884,34.0432-4.0524,48.0156-19.74  c1.0548-1.1816,1.3108-2.8752,0.6544-4.3164c-0.6484-1.4276-2.0744-2.344-3.6408-2.344c-0.0136,0-0.0272,0-0.0408,0  c-0.1992,0.1272-21.2052-0.0232-30.8204-20.0056c3.8732,0.2188,8.6484-0.0196,12.4512-1.7716  c1.5664-0.7228,2.492-2.3672,2.2988-4.082c-0.1932-1.7128-1.4628-3.1092-3.1504-3.4648  c-1.076-0.2264-24.4588-5.4552-27.7304-30.9648c3.5488,1.5508,8.086,2.8204,12.578,2.1348c1.5432-0.2324,2.8068-1.342,3.2424-2.84  c0.4356-1.498-0.0412-3.1152-1.2188-4.1388c-1-0.8708-22.9612-20.3884-12.5488-45.5584  c11.3028,11.8592,44.7852,42.6816,85.3476,40.3516c1.1896-0.0684,2.2872-0.666,2.994-1.6272  c0.7052-0.9608,0.9456-2.1852,0.6544-3.3416c-0.7676-3.0588-1.1584-6.2108-1.1584-9.3652C107.4438,24.8416,124.0182,8,144.3894,8  c9.9648,0,19.3124,3.9764,26.3164,11.1992c0.7364,0.7596,1.746,1.1972,2.8028,1.2148c4.238,0.0584,11.2088-0.4396,19.08-3.596  c-2.2716,2.8264-5.6076,6.2168-10.5156,10.0704c-1.3868,1.09-1.8964,2.9612-1.254,4.6036c0.6444,1.6464,2.3068,2.6856,4.0448,2.5292  c0.9316-0.074,5.6856-0.494,11.0568-1.656C192.9946,35.5212,188.983,39.5468,183.4946,44.5956z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-media-links__item">
+                        <a href="https://www.youtube.com/Global Ukraine" target="_blank">
+                            <svg class="social-media-links__img" enable-background="new 0 0 512 512" version="1.1"
+                                viewBox="0 0 512 512" xml:space="preserve">
+                                <g>
+                                    <path
+                                        d="M260.4,449c-57.1-1.8-111.4-3.2-165.7-5.3c-11.7-0.5-23.6-2.3-35-5c-21.4-5-36.2-17.9-43.8-39c-6.1-17-8.3-34.5-9.9-52.3   C2.5,305.6,2.5,263.8,4.2,222c1-23.6,1.6-47.4,7.9-70.3c3.8-13.7,8.4-27.1,19.5-37c11.7-10.5,25.4-16.8,41-17.5   c42.8-2.1,85.5-4.7,128.3-5.1c57.6-0.6,115.3,0.2,172.9,1.3c24.9,0.5,50,1.8,74.7,5c22.6,3,39.5,15.6,48.5,37.6   c6.9,16.9,9.5,34.6,11,52.6c3.9,45.1,4,90.2,1.8,135.3c-1.1,22.9-2.2,45.9-8.7,68.2c-7.4,25.6-23.1,42.5-49.3,48.3   c-10.2,2.2-20.8,3-31.2,3.4C366.2,445.7,311.9,447.4,260.4,449z M205.1,335.3c45.6-23.6,90.7-47,136.7-70.9   c-45.9-24-91-47.5-136.7-71.4C205.1,240.7,205.1,287.6,205.1,335.3z" />
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-media-links__item">
+                        <a href="https://t.me/globalukrainenews" target="_blank">
+                            <svg class="social-media-links__img" version="1.1" id="mdi-telegram" viewBox="0 0 24 24">
+                                <path
+                                    d="M9.78,18.65L10.06,14.42L17.74,7.5C18.08,7.19 17.67,7.04 17.22,7.31L7.74,13.3L3.64,12C2.76,11.75 2.75,11.14 3.84,10.7L19.81,4.54C20.54,4.21 21.24,4.72 20.96,5.84L18.24,18.65C18.05,19.56 17.5,19.78 16.74,19.36L12.6,16.3L10.61,18.23C10.38,18.46 10.19,18.65 9.78,18.65Z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-media-links__item">
+                        <a href="https://www.tiktok.com/@globalukraine?fbclid=IwAR1LxkbtbaUnRQ3b6tcoCq3k37el9vo3VE1sEhl1dBJz-zQf9f8ZkFHt-GQ"
+                            target="_blank">
+                            <svg class="social-media-links__img" viewBox="0 0 48 48">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M14.4706 37.3231C15.4211 37.8246 16.4797 38.0864 17.5543 38.086C21.1338 38.086 24.0559 35.2387 24.1878 31.69L24.201 0H32.1076C32.1083 0.673085 32.1709 1.34468 32.2945 2.00632H26.5053V2.00742H34.4129C34.4118 4.65963 35.3731 7.22216 37.1185 9.21918L37.1207 9.22173C38.9011 10.3848 40.9821 11.0032 43.1088 11.0012V12.7622C43.8531 12.9216 44.6227 13.0065 45.4142 13.0065V20.9152C41.4667 20.9198 37.6179 19.6821 34.413 17.3775V33.4468C34.413 41.4709 27.8839 48 19.8586 48C17.8601 48.0005 15.883 47.5882 14.0512 46.7889C12.2207 45.9903 10.5749 44.8224 9.21653 43.3584L9.21355 43.3563C5.46035 40.7212 3 36.3633 3 31.4404C3 23.4151 9.52906 16.885 17.5543 16.885C18.2106 16.8881 18.8658 16.9359 19.5156 17.0279V18.9001C19.5613 18.8992 19.6067 18.8976 19.6523 18.8961C19.7207 18.8937 19.7893 18.8913 19.8586 18.8913C20.5148 18.8944 21.1701 18.9422 21.8198 19.0342V27.1068C21.1998 26.9122 20.5435 26.7989 19.8586 26.7989C18.0962 26.801 16.4066 27.5021 15.1605 28.7484C13.9144 29.9947 13.2136 31.6844 13.2119 33.4467C13.212 34.8387 13.6519 36.1951 14.4689 37.3222L14.4706 37.3231ZM6.26428 38.6397C6.93975 40.3996 7.9478 41.9961 9.21034 43.3529C7.9221 41.9743 6.92735 40.371 6.26428 38.6397Z" />
+                            </svg>
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p class="lng-footer">&copy; Платіжні рахунки та дебетові картки Visa випускаються Global Ukraine у
+                партнерстві з LinkCy
+                Payment Service Provider UAB, яка є Агентом Установи Електронних Грошей (LB001994), уповноваженою Банком
+                Литви здійснювати емісію електронних гроші та відповідні платіжні послуги.</p>
+        </footer>
+    </div>
+    <script src="scripts/languages.js" type="module"></script>
+    <script src="scripts/animation.js" type="module"></script>
+    <script src="scripts/scroll.js" type="module"></script>
+    <script src="scripts/form.js" type="module"></script>
+    <script src="scripts/select.js" type="module"></script>
+</body>
+
+</html>

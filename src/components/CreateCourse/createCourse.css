@@ -1,0 +1,21 @@
+.create-course-container {
+	width: 1300px;
+	margin: 0 auto;
+	padding: 30px;
+	border: 2px solid #6666FF;
+}
+.btn-adding {
+	float: left;
+}
+textarea {
+	width: 100%;
+	height: 200px;
+	border: 1px solid yellow;
+	outline: 1px solid yellow;
+}
+textarea {
+	padding: 5px;
+	margin-top: 10px;
+	font-size: 17px;
+	font-weight: 400;
+}

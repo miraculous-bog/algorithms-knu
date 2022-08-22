@@ -1,0 +1,10 @@
+.button {
+	background-color: white;
+	border: 3px solid violet;
+	font-size: 17px;
+	font-weight: 500;
+	padding: 7px 20px;
+	max-height: 40px;
+	cursor: pointer;
+	max-height: 50px;
+}
