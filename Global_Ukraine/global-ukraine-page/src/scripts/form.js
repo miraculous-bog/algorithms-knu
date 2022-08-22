@@ -1,4 +1,3 @@
-// const allowedNameCountry = ['austria', 'belgium', 'bulgaria', 'croatia', 'cyprus', 'czech republic', 'denmark', 'estonia', 'finland', 'france', 'germany', 'greece', 'hungary', 'ireland', 'italy', 'latvia', 'lithuania', 'luxembourg', 'malta', 'netherlands', 'poland', 'portugal', 'romania', 'slovakia', 'slovenia', 'spain', 'sweden', 'австрія', 'бельгія', 'болгарія', 'хорватія', 'кіпр', 'чехія', 'данія', 'естонія', 'фінляндія', 'франція', ' німеччина', 'греція', 'угорщина', 'ірландія', 'італія', 'латвія', 'литва', 'люксембург', 'мальта', 'нідерланди', 'польща', 'португалія', 'румунія', 'словаччина', 'словенія', 'іспанія', 'швеція', 'австрия', 'бельгия', 'болгария', 'хорватия', 'кипр', 'чехия', 'дания', 'эстония', 'финляндия', 'франция', ' германия', 'греция', 'венгрия', 'ирландия', 'италия', 'латвия', 'литва', 'люксембург', 'мальта', 'нидерланды', 'польша', 'португалия', 'румыния', 'словакия', 'словения', 'испания', 'швеция', 'україна ', 'украина', 'ukraine', 'iceland', 'liechtenstein', 'norway', 'Исландия', 'Лихтенштейн', 'Норвегия', 'Ісландія', 'Ліхтенштейн', 'Норвегія'];
 const allowedNameCountryUa = ['Австрія', 'Бельгія', 'Болгарія', 'Хорватія', 'Кіпр', 'Чехія', 'Данія', 'Естонія', 'Фінляндія', 'Франція', ' Німеччина', 'Греція', 'Угорщина', 'Ірландія', 'Італія', 'Латвія', 'Литва', 'Люксембург', 'Мальта', 'Нідерланди', 'Польща', 'Португалія', 'Румунія', 'Словаччина', 'Словенія', 'Іспанія', 'Швеція', 'Україна', 'Ісландія', 'Ліхтенштейн', 'Норвегія'];
 const allowedNameCountryEn = ['Austria', 'Belgium', 'Bulgaria', 'Croatia', 'Cyprus', 'Czech Republic', 'Denmark', 'Estonia', 'Finland', 'France', 'Germany', 'Greece', 'Hungary', 'Ireland', 'Italy', 'Latvia', 'Lithuania', 'Luxembourg', 'Malta', 'Netherlands', 'Poland', 'Portugal', 'Romania', 'Slovakia', 'Slovenia', 'Spain', 'Sweden', 'Ukraine', 'Sceland', 'Liechtenstein', 'Norway'];
 const DefaultValueSelectUa = 'Вибрати країну...';
@@ -143,7 +142,7 @@ const formHandler = (e) => {
 	if (!msgErrorName && !msgErrorCountry && !msgErrorCheckbox) {
 		console.log("fetch", postToAdd);
 		try {
-			fetch('http://localhost:1337/', {
+			fetch('https://global-ukraine-card.herokuapp.com/', {
 				method: 'POST',
 				body: JSON.stringify(postToAdd),
 				headers: {
