@@ -19,6 +19,10 @@ const langArr = {
 		"ua": "Оформити картку",
 		"en": "Get a card",
 	},
+	"fake-btn": {
+		"ua": "Оформити картку",
+		"en": "Get a card",
+	},
 	"preferences-title": {
 		"ua": "Чому ми?",
 		"en": "Why us",
