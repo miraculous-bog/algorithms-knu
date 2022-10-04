@@ -62,6 +62,7 @@ body {
 }
 .social-media-links__item {
 	display: inline-block;
+	margin: 0 12px;
 }
 
 .social-media-links__img:hover {
@@ -219,6 +220,7 @@ body {
 	.social-media-links__item {
 		display: inline-block;
 		fill: $main_blue_color;
+		margin: 12px 12px;
 	} 
 	.main-title {
 		font-size: 52px;
@@ -593,8 +595,6 @@ body {
 	border-bottom: 1px solid #d3d3d3;
   }
 
-
-
 @media (max-width: 750px) {
 	.flex-container {
 		flex-direction: column;
@@ -654,8 +654,24 @@ body {
 	.checkbox-text {
 		font-size: 24px;
 	}
+	.lng-form-title {
+		font-size: 32px;
+	}
 }
-
+#captcha-container-custom-go {
+	margin-top: 40px;
+}
+@media (max-width: 369px) {
+	#captcha-container-custom-go {
+		max-width: 100%;
+	}
+	.g-recaptcha iframe{
+		max-width: 250px!important;
+	}
+	.g-recaptcha div{
+		max-width: 270px!important;
+	}
+}
 .footer { 
 	display: flex;
 	justify-content: center;
@@ -668,4 +684,5 @@ body {
 	border-top: 5px solid $main_yellow_color;
 	width: 80%;
 	padding: 20px 0;
+	line-height: 1.2em;
 }
