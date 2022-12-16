@@ -11,6 +11,14 @@ const langArr = {
 		"ua": "Оформити картку",
 		"en": "Get a card",
 	},
+	"call": {
+		"ua": "Служба<br>підтримки",
+		"en": "Helpdesk",
+	},
+	"call-tg": {
+		"ua": "Служба<br>підтримки",
+		"en": "Helpdesk",
+	},
 	"main-btn-2": {
 		"ua": "Оформити картку",
 		"en": "Get a card",
@@ -28,16 +36,16 @@ const langArr = {
 		"en": "For whom?",
 	},
 	"whom-first-text": {
-		"ua": "Українськи фопи в Європі, які працюють з Європейськими або міжнародними партнерами та прагнуть фінансової стабільності, без конверсійних комісій та обмежень національних банків.",
-		"en": "Українськи фопи в Європі, які працюють з Європейськими або міжнародними партнерами та прагнуть фінансової стабільності, без конверсійних комісій та обмежень національних банків.",
+		"ua": "Українські ФОПи в Європі, які працюють з Європейськими або міжнародними партнерами та прагнуть фінансової стабільності, без конверсійних комісій та обмежень національних банків.",
+		"en": "Ukrainian private entrepreneurs (FOPs) in Europe who work with European or international partners and seek financial stability, without conversion commissions and restrictions of national banks.",
 	},
 	"whom-second-text": {
 		"ua": "Українці в Європі, які потребують європейського банківського рахунку для зручного управління операціями в євро.",
-		"en": "Українці в Європі, які потребують європейського банківського рахунку для зручного управління операціями в євро.",
+		"en": "Ukrainians in Europe who need a European bank account for convenient management of transactions in euros.",
 	},
 	"whom-third-text": {
 		"ua": "Всім українцям, хто підтримує створення української глобальної фінансової системи, з безкоштовними переказами, програмами лояльності та з можливістю генерувати соціальний кешбек для розвитку українських громад в світі.",
-		"en": "Всім українцям, хто підтримує створення української глобальної фінансової системи, з безкоштовними переказами, програмами лояльності та з можливістю генерувати соціальний кешбек для розвитку українських громад в світі.",
+		"en": "To all Ukrainians who support the creation of a Ukrainian global financial system, with free transfers, loyalty programs and the opportunity to generate social cashback for the development of Ukrainian communities in the world.",
 	},
 	"preferences-title": {
 		"ua": "Унікальні переваги",
@@ -52,28 +60,32 @@ const langArr = {
 		"en": "Order a European bank card with Ukrainian language support",
 	},
 	"preferences-third-text": {
-		"ua": "Забезпечити фінансову безпеку своїм рідним, які в Україні",
-		"en": "Provide financial security to your relatives in Ukraine",
+		"ua": "Безкоштовні та безлімітні перекази між власниками карти Global Ukraine (незалежно від країни проживання).",
+		"en": "Free and unlimited transfers between Global Ukraine card holders (regardless of the country of residence)",
 	},
 	"take-title": {
 		"ua": "Як отримати рахунок та картку Global Ukraine?",
 		"en": "How to open the account and get the card Global Ukraine?",
 	},
 	"take-first-text": {
-		"ua": `Встановіть додаток "Global Ukraine Card" з App Store або Google Play.<br><br>Вкажіть свою адресу (постійну або тимчасову) в Європі.`,
-		"en": `Install the "Global Ukraine Card" app from App Store or Google Play. Indicate your address (permanent or temporary) in Europe.`,
+		"ua": `Встановіть додаток "Global Ukraine Card" з App Store або Google Play.`,
+		"en": `Install the "Global Ukraine Card" app from App Store or Google Play.`,
 	},
 	"take-second-text": {
+		"ua": `Вкажіть свою адресу (постійну або тимчасову) в Європі.`,
+		"en": `Indicate your address (permanent or temporary) in Europe.`,
+	},
+	"take-third-text": {
 		"ua": "Сфотографуйте свій паспорт і зробіть селфі. ",
 		"en": "Take a picture of your passport and take a selfie. ",
 	},
-	"take-third-text": {
-		"ua": "Активуйте свою віртуальну картку Global Ukraine VISA Debit і почніть здійснювати перекази або робити покупки онлайн.",
-		"en": "Активуйте свою віртуальну картку Global Ukraine VISA Debit і почніть здійснювати перекази або робити покупки онлайн.",
-	},
 	"take-fourth-text": {
+		"ua": "Активуйте свою віртуальну картку Global Ukraine VISA Debit і почніть здійснювати перекази або робити покупки онлайн.",
+		"en": "Activate your virtual Global Ukraine VISA Debit card and start making transfers or shopping online.",
+	},
+	"take-fifth-text": {
 		"ua": "Замовте фізичну картку Global Ukraine VISA Debit (яку незабаром буде доставлено вам за вказаною європейською адресою). ",
-		"en": "Order your physical Global Ukraine VISA Debit card (which will soon be delivered to you at the European address indicated).",
+		"en": "Order your physical Global Ukraine VISA Debit card (which will soon be delivered to you at the indicated European address).",
 	},
 	"chance-text": {
 		"ua": "Хочете бути в першій тисячі українців, котрі матимуть банківську карту Global Ukraine?",
@@ -88,8 +100,8 @@ const langArr = {
 		"en": "Global Ukraine works under the European license of EMI to create the first Ukrainian neobank in Europe.<br>Half of the profit of the neobank will be directed to the support and protection of Ukrainian communities in the world!",
 	},
 	"form-title": {
-		"ua": "Завантажити",
-		"en": "Download",
+		"ua": "Завантажити картку Global Ukraine",
+		"en": `Download the application "Global Ukraine card"`,
 	},
 	"checkbox-first": {
 		"ua": "Індивідуальний рахунок (фізособа)",
@@ -100,7 +112,7 @@ const langArr = {
 		"en": "Corporate account ( FOP|PE)",
 	},
 	"suport-title": {
-		"ua": "Служба підтримки ",
+		"ua": "Служба підтримки",
 		"en": "Helpdesk",
 	},
 	"program-title": {
@@ -113,12 +125,24 @@ const langArr = {
 	},
 	"suport-text": {
 		"ua": "Спілкуйтеся з реальними людьми, які зроблять неможливе, щоб ефективно відповісти на ваші запитання через Месенджер",
-		"en": "Communicate with real people, who will do the impossible to answer your questions efficiently. Use your usual messengers",
+		"en": "Communicate with real people, who will do the impossible to answer your questions efficiently. Contact with us via Facebook messenger",
 	},
 	"footer": {
 		"ua": "&copy;Карти Global Ukraine випускаються UAB PayrNet на підставі ліцензії VISA та управляються UAB LinkCy.<br>UAB PayrNet уповноважено Банком Литви відповідно до Закону про електронні гроші та установи електронних грошей (ref LB001994) для випуску електронних грошей і надання відповідних платіжних послуг.<br>UAB LinkCy є агентом UAB PayrNet, зареєстрованого в Банку Литви під номером 305756549. ",
 		"en": "&copy;Global Ukraine Cards are issued by UAB PayrNet pursuant to a licence by VISA and managed by UAB LinkCy. <br>UAB PayrNet is authorised by the Bank of Lithuania under the Law on Electronic Money and Electronic Money Institutions (ref LB001994)  for the issuing of electronic money and provision of the related payment services.<br>UAB LinkCy is an Agent of UAB PayrNet registered with the Bank of Lithuania under number 305756549. ",
 	},
+	"terms-use": {
+		"ua": "Пропозиції, тарифи та умови використання",
+		"en": "Offers, tarifs and terms of use",
+	},
+	"back": {
+		"ua": "Назад",
+		"en": "Back",
+	},
+	"back-title": {
+		"ua": "Служба підтримки",
+		"en": "Helpdesk",
+	}
 }
 
 export { langArr };
