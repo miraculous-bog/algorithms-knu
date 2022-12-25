@@ -142,6 +142,14 @@ const langArr = {
 	"back-title": {
 		"ua": "Служба підтримки",
 		"en": "Helpdesk",
+	},
+	"head-btn-first": {
+		"ua": "Про Global Ukraine",
+		"en": "About Global Ukraine",
+	},
+	"head-btn-second": {
+		"ua": "Новини Global Ukraine",
+		"en": "News Global Ukraine",
 	}
 }
 

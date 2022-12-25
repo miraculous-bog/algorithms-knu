@@ -48,6 +48,11 @@ body {
 	@extend %flex-position;
 	align-items: center;
 }
+.head-btns {
+	@extend %flex-position;
+	margin-top: 50px;
+	// justify-content: space-between;
+}
 .social-media-links__img {
 	width: 56px;
 	height: 56px;
@@ -93,8 +98,10 @@ body {
 	display: inline-block;
 	color: #fff;
 	background-color: $main_yellow_color;
-	font-size: 30px;
-	padding: 15px 25px;
+	font-size: 22px;
+	padding: 10px 15px;
+	width: 300px;
+	text-align: center;
 	border-radius: 25px;
 	cursor: pointer;
 	border: none;
@@ -208,6 +215,19 @@ body {
 		}
 	}
 }
+@media (max-width: 630px) {
+	.main-button {
+		font-size: 20px;
+		// width: 100%;
+		margin-top: 20px;
+	}
+	.head-btns {
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
 @media (max-width: 480px) {
 	.header {
 		align-items: center;
@@ -234,10 +254,6 @@ body {
 		content: '';
 		border-left: 5px solid $sub_blue_color;
 		margin-right: 10px;
-	}
-	.main-button {
-		font-size: 20px;
-		padding: 15px 25px;
 	}
 	.back-button {
 		display: inline-block;
