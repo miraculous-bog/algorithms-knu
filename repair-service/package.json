@@ -1,0 +1,23 @@
+{
+  "name": "global_ukraine-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "scss:build": "node-sass src/scss/styles.scss -o src/css",
+    "scss:watch": "node-sass --watch src/scss/styles.scss -o src/css",
+    "build": "npm run scss:build && npm run scss:watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "dayjs": "^1.11.2",
+    "form-data": "^4.0.0",
+    "googleapis": "^105.0.0",
+    "md5": "^2.3.0",
+    "node-fetch": "^3.3.0",
+    "node-sass": "^7.0.1"
+  }
+}

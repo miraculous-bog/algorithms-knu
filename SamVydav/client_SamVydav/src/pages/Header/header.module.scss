@@ -1,0 +1,34 @@
+@import '../../App.scss';
+
+/* header.module.scss */
+.header {
+  background-color: #fff;
+  padding: 20px 40px; /* Изменено значение паддинга */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  vertical-align: middle;
+  border-radius: 0 0 30px 30px;
+  transition: padding 0.3s ease; /* Анимация для изменения паддинга */
+  position: fixed; /* Фиксированное позиционирование для "прилипания" */
+  top: 0; /* Хедер будет "прилипать" к верху экрана */
+  z-index: 1000; /* Установите z-index, если это необходимо */
+  box-shadow: 1px 3px 10px 0px rgba(172,190,26,0.75);
+  // -webkit-box-shadow: 1px 7px 19px 0px rgba(172,190,26,0.75);
+  // -moz-box-shadow: 1px 7px 19px 0px rgba(172,190,26,0.75);
+  @include tablet {
+    position: static;
+    flex-direction: column;
+    border: 2px solid (--core-color);
+    }
+  }
+
+
+.empty {
+  max-width: 350px;
+  min-width: 52px;
+}
+.scrolled {
+  padding: 5px 10px; /* Установите паддинг для "прилипания" */
+  }

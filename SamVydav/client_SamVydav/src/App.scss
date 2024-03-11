@@ -1,0 +1,43 @@
+:root {
+  --main-color: #1B1D29;
+  --bg-color: #131313;
+  --core-color: #ACBE1A;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.wrapper {
+  background-color: var(--bg-color);
+  max-width: 1920px;
+  margin: 40px auto 0 auto;
+  padding: 30px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@mixin tablet {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: 480px) {
+    @content;
+  }
+}

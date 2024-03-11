@@ -1,0 +1,31 @@
+.aside {
+	height: 100%;
+	padding: 0 20px;
+}
+.list, .element {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	list-style-type: none;
+	.discord {
+		padding-top: 270px;
+	}
+	.item {
+		margin-top: 38px;
+		color:  rgba(81, 83, 95, 1);
+		cursor: pointer;
+		&:hover {
+			color: rgba(32, 161, 236, 1);
+			.text{
+				color: rgba(255, 255, 255, 1);
+			}
+		}
+		.text {
+			font-size: 10px;
+			font-weight: 500;
+			line-height: 12px;
+			margin-top: 10px;
+		}
+	}
+}

@@ -1,0 +1,30 @@
+.line {
+	display: grid;
+	grid-template-areas:
+	  "game username time bet multiplier payout";
+	
+	  div {
+		  width: 20%;
+	  }
+  }
+
+  .game {
+	grid-area: game;
+  }
+  
+  .username {
+	grid-area: username;
+  }
+  
+  .time {
+	grid-area: time;
+  }
+  .bet {
+	grid-area: bet;
+  }
+  .multiplier {
+	grid-area: multiplier;
+  }
+  .payout {
+	grid-area: payout;
+  }
